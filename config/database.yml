@@ -1,0 +1,21 @@
+production:
+  adapter: sqlserver
+  encoding: utf8
+  mode: dblib
+  dataserver: localhost:2014
+  database: RESULTSTEL_PROD
+  username: sa
+  password: P@$$w0rd
+  timeout: 0
+  login_timeout: 60
+
+development:
+  adapter: sqlserver
+  encoding: utf8
+  mode: dblib
+  dataserver: localhost:2014
+  database: RESULTSTEL_PROD
+  username: sa
+  password: P@$$w0rd
+  timeout: 0
+  login_timeout: 60

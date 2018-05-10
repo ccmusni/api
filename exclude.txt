@@ -1,0 +1,9 @@
+\setup\
+exclude.txt
+log\development.log
+log\production.log
+\.git\
+.gitignore
+\.idea\
+\json\
+\tmp\

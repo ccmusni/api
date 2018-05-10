@@ -1,0 +1,212 @@
+{
+    "success": true,
+    "e_payslip": [
+        {
+            "basic_info": {
+                "CompanyRegisteredName": "Results Manila Inc.",
+                "RegisteredAddress": "2nd Floor, Silver City Mall Frontrera Drive and Julia Vargas Avenue Pasig City",
+                "PayPeriod": "May 1st Period 2017",
+                "PayDate": "05/22/2017",
+                "EmployeeCode": "101010",
+                "EmployeeName": "DELA CRUZ, JUAN, JR.",
+                "AccessCode": "00001",
+                "TaxCode": "S",
+                "TINNo": "121-212-122",
+                "SSSNo": "23-2323232-3",
+                "Designation": "CALL CENTER ASSOCIATES",
+                "Department": "CUSTOMER EXPERIENCE",
+                "Team": "SAMPLE TEAM",
+                "PayrollFrequency": "Semi-monthly",
+                "EmploymentType": "Regular",
+                "Rate": 40000,
+                "GrossEarnings": "50290.84",
+                "NetPay": "36764.61"
+            },
+            "earnings": [
+                {
+                    "PayCode": "REG BASIC",
+                    "Amount": "20000.0",
+                    "TotalQuantity": 0,
+                    "UnitOfQty": ""
+                },
+                {
+                    "PayCode": "TARDY",
+                    "Amount": "-739.46",
+                    "TotalQuantity": -193,
+                    "UnitOfQty": "min(s)"
+                },
+                {
+                    "PayCode": "MIDBREAK",
+                    "Amount": "-452.11",
+                    "TotalQuantity": -118,
+                    "UnitOfQty": "min(s)"
+                },
+                {
+                    "PayCode": "MIDBREAK AL",
+                    "Amount": "500.0",
+                    "TotalQuantity": 0,
+                    "UnitOfQty": ""
+                },
+                {
+                    "PayCode": "UNDERTIME",
+                    "Amount": "-19.16",
+                    "TotalQuantity": -5,
+                    "UnitOfQty": "min(s)"
+                },
+                {
+                    "PayCode": "ABSENT",
+                    "Amount": "-1149.43",
+                    "TotalQuantity": -0.625,
+                    "UnitOfQty": "day(s)"
+                },
+                {
+                    "PayCode": "BONUS",
+                    "Amount": "10000.0",
+                    "TotalQuantity": 0,
+                    "UnitOfQty": ""
+                },
+                {
+                    "PayCode": "COLA",
+                    "Amount": "250.0",
+                    "TotalQuantity": 0,
+                    "UnitOfQty": ""
+                },
+                {
+                    "PayCode": "TRANSPORTATION",
+                    "Amount": "1500.0",
+                    "TotalQuantity": 0,
+                    "UnitOfQty": ""
+                }
+            ],
+            "earnings_sub_total": 29889.84,
+            "other_pay": [
+                {
+                    "PayCode": "PROMOTIONAL BONUS",
+                    "Amount": "5001.0",
+                    "TotalQuantity": 0,
+                    "UnitOfQty": ""
+                },
+                {
+                    "PayCode": "RICE, UNIFORM AND LAUNDRY",
+                    "Amount": "15400.0",
+                    "TotalQuantity": 14,
+                    "UnitOfQty": "N/A"
+                }
+            ],
+            "other_pay_sub_total": 20401,
+            "gross_pay": 50290.84,
+            "government_deductions": [
+                {
+                    "PayCode": "HDMFEE",
+                    "Amount": "100.0"
+                },
+                {
+                    "PayCode": "PHICEE",
+                    "Amount": "437.5"
+                },
+                {
+                    "PayCode": "SSSEE",
+                    "Amount": "581.3"
+                },
+                {
+                    "PayCode": "WTAX",
+                    "Amount": "4649.43"
+                }
+            ],
+            "government_deductions_sub_total": 5768.23,
+            "other_deductions": [
+                {
+                    "PayCode": "Fitness Deduction",
+                    "Amount": "324.0"
+                },
+                {
+                    "PayCode": "HMO",
+                    "Amount": "5434.0"
+                }
+            ],
+            "other_deductions_sub_total": 5758,
+            "loan_deductions": [
+                {
+                    "PayCode": "SSS SLOAN",
+                    "LoanAmount": "70000.0",
+                    "Amortization": "2000.0",
+                    "Balance": "44000.0"
+                }
+            ],
+            "loan_amount_sub_total": 70000,
+            "loan_amortization_sub_total": 2000,
+            "loan_balance_sub_total": 44000,
+            "net_pay": 36764.61,
+            "ytd_taxable_earnings": [
+                {
+                    "PayCode": "ABSENT",
+                    "YTDAmount": "-1149.43"
+                },
+                {
+                    "PayCode": "COLA",
+                    "YTDAmount": "250.0"
+                },
+                {
+                    "PayCode": "MIDBREAK",
+                    "YTDAmount": "-452.11"
+                },
+                {
+                    "PayCode": "PROMOTIONAL BONUS",
+                    "YTDAmount": "5001.0"
+                },
+                {
+                    "PayCode": "REG BASIC",
+                    "YTDAmount": "20000.0"
+                },
+                {
+                    "PayCode": "TARDY",
+                    "YTDAmount": "-739.46"
+                },
+                {
+                    "PayCode": "TRANSPORTATION",
+                    "YTDAmount": "1500.0"
+                },
+                {
+                    "PayCode": "UNDERTIME",
+                    "YTDAmount": "-19.16"
+                }
+            ],
+            "ytd_taxable_earnings_sub_total": 24390.84,
+            "ytd_non_taxable_earnings": [
+                {
+                    "PayCode": "BONUS (Non-Taxable)",
+                    "YTDAmount": "10000.0"
+                },
+                {
+                    "PayCode": "MIDBREAK AL",
+                    "YTDAmount": "500.0"
+                },
+                {
+                    "PayCode": "RICE, UNIFORM AND LAUNDRY",
+                    "YTDAmount": "15400.0"
+                }
+            ],
+            "ytd_non_taxable_earnings_sub_total": 25900,
+            "ytd_government_deductions": [
+                {
+                    "PayCode": "HDMFEE",
+                    "YTDAmount": "100.0"
+                },
+                {
+                    "PayCode": "PHICEE",
+                    "YTDAmount": "437.5"
+                },
+                {
+                    "PayCode": "SSSEE",
+                    "YTDAmount": "581.3"
+                },
+                {
+                    "PayCode": "WTAX",
+                    "YTDAmount": "4649.43"
+                }
+            ],
+            "ytd_government_deductions_sub_total": 5768.23,
+            "remarks": "Sample Payslip Remarks"
+        }
+    ]
+}

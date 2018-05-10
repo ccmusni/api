@@ -1,0 +1,20 @@
+JEONSOFT APPLICATION PROGRAM INTERFACE
+----------------------
+   RELEASE NOTES
+----------------------
+BUILD 1.2
+**ENHANCEMENTS**
+1.	Added Regular Hours Total Quantity
+2.	Added Payrolls end point that returns locked payroll periods
+3.	Support SQL 2014 and up in SQL adapter gem
+
+BUILD 1.1
+**ENHANCEMENTS**
+1.	Added Payroll Info column "Locked", values are true or false, determines whether the payroll is locked or not.
+2.	Validation if specified payroll is not existing.
+
+BUILD 1.0
+**SPECIFICATIONS**
+1.	Create API that is able to receive request from client with authentication and returns payslip data in JSON format.
+	- Authentication (Username & Password)
+	- Payslip (EmployeeCode, PayYear, PayMonth, PayrollPeriod => JSON file)
